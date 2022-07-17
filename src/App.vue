@@ -17,7 +17,7 @@ generateNewStyle(store.getters.mainColor).then(newStyleText => {
 })
 
 /**
- * 监听 语言变化，重新获取个人信息
+ * 监听 语言变化，重新获取个人信息;SDFSD
  */
 watchSwitchLang(() => {
   if (store.getters.token) {
